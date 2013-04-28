@@ -3,11 +3,11 @@
 %
 %base case of the iteration
 move(1,X,Y,_) :-
-    write('Move top disk from '),
+	write('Move top disk from '),
 	write(X),
-	write(' to '),
+	write(' to '),	% write() --> write character and variable values in terminal.
 	write(Y),
-	nl.
+	nl.		% nl --> newline.
 %
 %iteration part
 move(N,X,Y,Z) :-
