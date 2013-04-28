@@ -8,7 +8,7 @@ move(1,X,Y,_) :-
 	write(' to '),	% write() --> write character and variable values in terminal.
 	write(Y),
 	nl.		% nl --> newline.
-%%
+%
 %iteration part
 move(N,X,Y,Z) :-
 	N>1,
